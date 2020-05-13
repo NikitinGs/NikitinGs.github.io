@@ -57,9 +57,9 @@ $msg="
  // Отправляем письмо админу  
  
 mail("$adminemail", "$date $time Сообщение 
-от $name", "$email"); 
+от $email"name", "$email"); 
  
-  
+  	
  
 // Сохраняем в базу данных 
  
